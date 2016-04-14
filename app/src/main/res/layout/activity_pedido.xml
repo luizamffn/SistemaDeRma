@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sistemaderma.ifpi.edu.br.sistemaderma.Pedido">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/informacaoDoPedido"
+        android:textSize="20dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/camposObrigatorios"
+        android:layout_gravity="right"
+        android:textStyle="bold|italic"
+        android:textColor="@android:color/black"/>
+
+    <TextView
+        android:id="@+id/tipoSol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="tipo"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/descricaoGeral"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/descricaoGeral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/rma"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/rmaPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/orcamento"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/orcamentoPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/prazo"
+            android:textColor="@android:color/black"/>
+
+        <EditText
+            android:id="@+id/prazoPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/Finalizar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finalizar"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:onClick="finalizar" />
+
+</LinearLayout>

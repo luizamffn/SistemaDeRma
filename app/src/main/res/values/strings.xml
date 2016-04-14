@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SistemaDeRMA</string>
+    <string name="entrar">Entrar</string>
+    <string name="fazerCadastro">Ainda não é usuario?</string>
+    <string name="cadastrese">Cadastre-se</string>
+    <string name="camposObrigatorios">Todos os campos são obrigatorios</string>
+    <string name="nome">Nome</string>
+    <string name="usuario">uduario</string>
+    <string name="senha">senha</string>
+    <string name="cadastroDeUsuario">Cadastrar usuário</string>
+    <string name="cadastrar">cadastrar</string>
+    <string name="novaSolicitacao">Nova Solicitacao</string>
+    <string name="verSolicitacoes">Ver Solicitacoes</string>
+    <string name="garantia">Garantia</string>
+    <string name="servicoParticular"> Servico Particular</string>
+    <string name="CPF">CPF</string>
+    <string name="contatos">Contatos</string>
+    <string name="email">E-mail</string>
+    <string name="telefone">Telefone</string>
+    <string name="endereco">Endereço</string>
+    <string name="proximo">proximo</string>
+    <string name="CamposObg">Todos os campos com * são obrigatorios</string>
+    <string name="nomeObg">*Nome</string>
+    <string name="cpfObg">*CPF</string>
+    <string name="telefoneObg">*Telefone</string>
+    <string name="enderecoObg">*Endereço</string>
+    <string name="informacaoDoEquipamento">Informacao Do Equipamento</string>
+    <string name="descricao">Descricao</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="numSerial">Nº de Serial</string>
+    <string name="numNF">Nº da nota fiscal</string>
+    <string name="dataEmissaoNF">Data de emissão da Nota Fical</string>
+    <string name="solicitar">Solicitar</string>
+    <string name="informacaoDoPedido">Informações do Pedido</string>
+    <string name="orcamento">Orcamento</string>
+    <string name="prazo">Prazo</string>
+    <string name="descricaoGeral">Descricao GEral</string>
+    <string name="rma">rma</string>
+    <string name="finalizar">Finalizar</string>
+
+
+</resources>
